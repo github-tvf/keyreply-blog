@@ -1,0 +1,33 @@
+@charset 'UTF-8';
+
+// // Vendor
+@import 'vendor/bootstrap';
+@import '../../node_modules/animate.css/animate';
+
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+// // Utils
+@import 'utils/mixins';
+@import 'utils/functions';
+
+// // Base
+@import 'base/base';
+// @import 'base/fonts';
+// @import 'base/typography';
+
+// // Components
+@import 'components/animations';
+// @import 'components/modal';
+// @import 'components/form';
+@import 'components/buttons';
+// @import 'components/spinner';
+// @import 'components/swal';
+
+// Layout
+@import 'layout/header';
+@import 'layout/footer';
+
+// Pages
+@import 'pages/home/authen';
+@import 'pages/home/home';
+@import 'pages/home/admin';

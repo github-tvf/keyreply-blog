@@ -1,0 +1,27 @@
+// Footer
+
+footer {
+  padding-left: 95px;
+  background-color: #f8f8f8;
+  h4{
+    margin: 10px 0 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+    &.md-text{
+      font-size: 22px;
+    }
+  }
+  p{
+    margin: 5px 0 10px 0;
+    font-size: 14px;
+  }
+  a{
+    color: $tvf-color;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: underline !important;
+    &:hover{
+      text-decoration: none !important;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+
+.section-admin{
+  .list-post {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    @include clearfix();
+
+    li {
+      display: block;
+      float: left;
+      width: 32%;
+      margin: 0 2% 2% 0;
+
+      &:nth-child(3) {
+        margin: 0;
+      }
+
+      a {
+        display: block;
+
+        &:hover {
+          .news-title {
+            color: $tvf-color;
+          }
+        }
+      }
+
+      .news-title {
+        font-family: 'Rift';
+        font-weight: 500;
+        color: #424d54;
+        font-size: 21px;
+        padding-bottom: 25px;
+        transition: .3s;
+        margin-bottom: 0;
+      }
+
+      .news-date {
+        color: #a7a7a7;
+        font-size: 14px;
+        font-family: 'SanFranciscoText';
+        font-weight: 300;
+      }
+    }
+  }
+  .signin__form{
+    &--control{
+      margin-bottom: 15px;
+      label{
+        display: block;
+      }
+    }
+  }
+}
+.img-thumb{
+  width: 200px;
+}
