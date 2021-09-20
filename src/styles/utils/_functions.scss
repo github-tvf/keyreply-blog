@@ -1,0 +1,7 @@
+// Functions
+
+@function px($number, $ratio: 1) {
+  $result: 0;
+  $result: ($number/1920 * 100) * $ratio;
+  @return $result+vw;
+}
